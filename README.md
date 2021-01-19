@@ -22,3 +22,7 @@ The targets file is dependent upon three values that it expects to find as envir
 
 You can get the SHA1 has by running `certutil -p ********* -dump .\filename.pfx`
 The value you want will be listed as the "Cert Hash(sha1)". Make sure you get the one for your certificate, not one higher in the chain.
+
+## ColorHelper
+
+Helper to turn string of color name into a `SolidColorbrush`. Works with names and #RRGGBB values. 
