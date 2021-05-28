@@ -4,7 +4,7 @@ public static class ColorHelper
 {
     public static SolidColorBrush GetColorBrush(string color)
     {
-        iif (!color?.TrimStart().StartsWith("#") ?? false)
+        if (!color?.TrimStart().StartsWith("#") ?? false)
         {
             color = GetHexForNamedColor(color.Trim());
         }
