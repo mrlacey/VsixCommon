@@ -6,7 +6,7 @@ This repository includes functionality used by other Visual Studio extensions. I
 
 This is a targets file that handles the automatic signing of Release builds.
 
-Refefernce this file by adding the following (adjust path as necessary) to the end of the csproj file of the extension you wish to sign.
+Refernce this file by adding the following (adjust path as necessary) to the end of the csproj file of the extension you wish to sign.
 
 ```xml
   <Import Project="..\..\..\VsixCommon\signvsix.targets"/>
